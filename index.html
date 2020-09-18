@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Website 1</title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <!--font awesome-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section>
+            <!--navigation-->
+            <nav>
+                <!--logo-->
+                <a href="index.html" class="logo">DEADPOOL</a>
+                <!--menu-->
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Team</a></li>
+                </ul>
+                <!--bars-->
+                <div class="toggle"></div>
+            </nav>
+            <!--some text-->
+            <div class="text-container">
+                <p>Hello,</p>
+                <p>I'm Deadpool</p>
+                <p>And I am not a Hero.</p>
+                <button class="hire">Hire me</button>
+                <button class="downloadCV">Download Report</button>
+            </div>
+            <!--deadpool picture-->
+            <img src="images/deadpool.png" class="deadpool" alt="deadpool">
+        </section>
+        <!--about-->
+        <div class="about-container">
+            <!--image-->
+            <img src="images/deadpool2.png" alt="deadpool">
+            <!--text-->
+            <div class="about-text">
+                <p>About Me</p>
+                <p>Badman</p>
+                <p>Hello, my name is Deadpool. And I am not a Hero. I was diagnosed with terminal cancer and went for a therapy to a bad guy.
+                    I was injected with a serum designed to awaken latent mutant genes. This finally activated a superhuman healing ability 
+                    that cured the cancer but it affected me with severely disfigured with burn-like scars over my entire body and so the mask.
+                </p>
+                <button>Hire me</button>
+                <button>Download Report</button>
+            </div>
+        </div>
+        <!--services-->
+        <div class="services">
+            <!--text-->
+            <div class="services-text">
+                <p>Services</p>
+                <p>Services required</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+            <!--box-->
+            <div class="box-container">
+                <div class="box-1">
+                    <span>1</span>
+                    <p class="heading">Kill someone bad?</p>
+                    <p class="details">Yes, I'm always ready to kill someone if he/she is bad. And yes i do that for free. Haha, kidding, 
+                        I do nothing for free. You can always rely on me, not for help but to get in trouble.</p>
+                    <button>Read More</button>
+                </div>
+                <div class="box-2">
+                    <span>2</span>
+                    <p class="heading">Help someone cross the road?</p>
+                    <p class="details">I'm always ready to help some elderly to cross the road. And i don't mind if it's a child too. And 
+                        I can do this for free. Haha, kidding... you owe me a dinner in a 5 star restaurant after this.</p>
+                    <button>Read More</button>
+                </div>
+                <div class="box-3">
+                    <span>3</span>
+                    <p class="heading">You want more?</p>
+                    <p class="details">Well, as you know my history with Wolverine. So, I ask you not to demand more and get out of here. 
+                        But still if you want more then meet me personally so that I can blow yo with a bomb haha.</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <!--contact me-->
+            <div class="contact-me">
+                <p>If you have anything in your mind...</p>
+                <button>Contact Me</button>
+            </div>
+        </div>
+        <!--footer-->
+        <footer>
+            <p>Deadpool</p>
+            <p>I can do any work you want as soon as possible. But it isn't for free.</p>
+            <!--social-->
+            <div class="social-icons">
+                <a href="#"><i class="fa fa-facebook-f" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+            </div>
+            <!--copyright-->
+            <p class="copyright">Copyright by Deadpool ;)</p>
+        </footer>
+        <!--attached social icons-->
+        <div class="attached-social">
+            <a href="#"><i class="fa fa-facebook-f" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+        </div>
+        <!--JQuery-->
+        <script type="text/javascript" src="js/jQuery.js"></script>
+        <script text="text/javascript">
+            $(document).ready(function(){
+                $('.toggle').click(function(){
+                    $('.toggle').toggleClass('active')
+                    $('nav').toggleClass('active')
+                })
+            })
+        </script>
+    </body>
+</html>
