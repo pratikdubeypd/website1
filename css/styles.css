@@ -99,7 +99,7 @@ button:active{
 }
 .deadpool{
     height: 620px;
-    position: absolute;
+    position: relative;
     bottom: 40px;
     left: 70%;
     transform: translateX(-70%);
